@@ -3,7 +3,7 @@
 , fetchFromGitHub
 , breeze-icons
 , kdeclarative
-, kirigami2
+, kirigami
 , plasma-framework
 , plasma-workspace
 }:
@@ -22,7 +22,7 @@ stdenv.mkDerivation rec {
   propagatedUserEnvPkgs = [
     breeze-icons
     kdeclarative.bin
-    kirigami2
+    kirigami
     plasma-framework.bin
     plasma-workspace
   ];
